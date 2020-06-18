@@ -2,9 +2,9 @@
 <a href=" https://ru.wikipedia.org/wiki/Список_простых_чисел" >Список_простых_чисел </a>
 
 Простое ли число проверка при помощи python
-
+  <pre>
 <code>
-   <pre>
+ 
   def prime(num):
    if num >1:
       for i in range(2, num):
@@ -14,5 +14,6 @@
          return True
    else:
       return False
- </pre>
+
   </code>
+   </pre>
