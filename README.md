@@ -3,7 +3,6 @@
 
 Простое ли число проверка при помощи python:
   <pre>
-<code>
   def prime(num):
    if num >1:
       for i in range(2, num):
@@ -13,7 +12,6 @@
          return True
    else:
       return False
-  </code>
    </pre>
    
 Получаем публичный, приватный ключ:
