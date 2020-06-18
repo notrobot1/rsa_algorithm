@@ -17,10 +17,11 @@
    </pre>
    
 Получаем публичный, приватный ключ:
+
 <pre>
 publickkey = {e,n} #публичный ключ
 secretkey = {d,n}#секретный ключ
-<pre>
+</pre>
 
 Вводим число которое необходимо зашифровать:
 <code> p = int(input()) </code>
@@ -28,3 +29,8 @@ secretkey = {d,n}#секретный ключ
 <h3> Внимание!! </h3>
 
 <code>p</code> не может быть больше <code>n=p*q</code> 
+
+Получаем зашифрованное число:
+<code>cripto = pow(p, e,n)</code>
+Расшифровываем:
+<code>decripto = pow(cripto, d,n)</code>
