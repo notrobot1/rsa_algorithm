@@ -32,5 +32,6 @@ secretkey = {d,n}#секретный ключ
 
 Получаем зашифрованное число:
 <code>cripto = pow(p, e,n)</code>
+
 Расшифровываем:
 <code>decripto = pow(cripto, d,n)</code>
